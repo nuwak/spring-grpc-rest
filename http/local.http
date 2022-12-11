@@ -1,0 +1,15 @@
+### hello
+GRPC localhost:9898/com.examples.MyService/SayHello
+A-IM: I http client
+
+{
+  "name": "adsfasdf"
+}
+
+### http
+POST localhost:6789/v1/echo
+Content-Type: application/json
+
+{
+  "name": "adsfasdf"
+}
