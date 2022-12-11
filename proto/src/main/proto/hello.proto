@@ -9,7 +9,7 @@ option java_outer_classname = "HelloWorldProto";
 // The greeting service definition.
 service MyService {
   // Sends a greeting
-  rpc SayHello (HelloRequest) returns (HelloReply) {}:
+  rpc SayHello (HelloRequest) returns (HelloReply) {};
 }
 
 // The request message containing the user's name.
